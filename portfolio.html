@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="defense.css">
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        body{
+            background-color: #000;
+        }
+        
+        .main{
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+        
+            margin-top: 10%;
+        }
+        .div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+        .h1{
+            color: #fff;
+            font-size: 5rem;
+            text-align: center;
+        }
+        .h1:hover{
+            color: rgb(11, 159, 218);
+        }
+        
+        .p1{
+            color: #fff;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            width: 440px;
+            border: 1px solid grey;
+            border-radius: 90%;
+            padding: 1rem;
+            
+        }
+        .image{
+            width: 300px;
+            border-radius: 100%;
+        
+            width: 400px;
+            border: 1px solid grey;
+        }
+        .image:hover{
+            transform: scale(0.9);
+        }
+        .div1:hover{
+            transform: scale(0.9);
+        }
+        .span1{
+            color: rgba(15, 15, 233, 0.912);
+        }
+        .btn{
+            width:85px ;
+            height:30px ;
+            border-radius: 8px;
+            
+        }
+        .btn:hover{
+           background: rgb(67, 189, 238);
+           color: #fff;  
+           letter-spacing: 0.2rem;
+        }
+        .btn:active{
+            background: gold;
+            color: #fff;  
+         }
+         * {
+        
+            border: 0 ;
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PORTFOLIO</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="defense.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <main>
+        <main class="main">
+            <div class="div1">
+                <img src="./images/photo_2023-01-06_15-13-57.jpg" alt="profile" class="image">
+            </div>
+            <div class="div">
+                <h1 class="h1">
+                    Ngoran Bruce
+                </h1>
+                <p class="p1">
+                    Am a Front<span class="span1">end Developer</span>
+                </p>
+                <button class="btn">Hire Me</button>
+            </div>
+        </main>
+        <main class="two">
+            
+        </main>
+       
+      </main>
+      <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+      </footer>
+      <footer>
+        <div class="footer-container">
+          <ul class="footer-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
